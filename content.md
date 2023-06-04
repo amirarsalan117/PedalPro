@@ -7,7 +7,7 @@ Pedal Pro is an innovative website that revolutionizes the bicycle industry. By 
 ## branding
 
 headline:Ride into the Future: AI-Powered Bicycles Crafted for You, by Pedal Pro
-
+headline:"Discover the Future of Cycling. Pedal Pro: Where Innovation Meets the Open Road. Ride with Confidence, Powered by AI and Cutting-Edge Technology."
 ## PedalPro Website Content
 
 ### summry
