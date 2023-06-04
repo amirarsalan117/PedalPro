@@ -173,3 +173,17 @@ For Business
 Careers
 Help center
 Privacy & terms
+
+### Section
+
+-navbar
+-Hero
+-Features
+-how it's works
+-Call to Action
+-category
+-Pricing
+-Gallery
+-Testemonial
+-featured in
+-footer
