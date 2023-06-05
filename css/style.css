@@ -161,3 +161,31 @@ body {
 .hero-content {
   width: 60%;
 }
+
+.customers{
+  margin-top: 9.6rem;
+  display: flex;
+  gap: 2rem;
+}
+.customers-images{
+  display: flex;
+}
+.customers-images img{
+  height: 6.4rem;
+  width: 6.4rem;
+  border-radius: 100%;
+  margin: -1.2rem;
+  border: 3px solid ;
+}
+.customers-content{
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+}
+.customers-content span{
+  font-weight: 700;
+}
+
+
+/*********************************/
+/* header section*/
+/*********************************/
