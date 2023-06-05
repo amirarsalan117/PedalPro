@@ -162,30 +162,49 @@ body {
   width: 60%;
 }
 
-.customers{
+.customers {
   margin-top: 9.6rem;
   display: flex;
   gap: 2rem;
 }
-.customers-images{
+.customers-images {
   display: flex;
 }
-.customers-images img{
+.customers-images img {
   height: 6.4rem;
   width: 6.4rem;
   border-radius: 100%;
   margin: -1.2rem;
-  border: 3px solid ;
+  border: 3px solid;
 }
-.customers-content{
+.customers-content {
   font-size: 1.6rem;
   line-height: 1.6rem;
 }
-.customers-content span{
+.customers-content span {
   font-weight: 700;
 }
 
+/*********************************/
+/* featured in section*/
+/*********************************/
+.section-features {
+  padding: 4.8rem 0 3.2rem 0;
+}
 
-/*********************************/
-/* header section*/
-/*********************************/
+.company-logos {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.company-logos img {
+  height: 3.6rem;
+  
+}
+.heading-featured-in {
+  text-align: center;
+  margin-bottom: 2.4rem;
+  font-size: 1.6rem;
+  color: #1a5059;
+  letter-spacing: 2;
+}
