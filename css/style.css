@@ -391,7 +391,6 @@ body {
 .gallery-item img:hover {
   transform: scale(1.1);
 }
-figure {
-  margin: 0;
-  padding: 0;
+.heading-testemonial{
+  color: white;
 }
