@@ -344,3 +344,54 @@ body {
 .all-models a:active {
   text-decoration: none;
 }
+
+/*********************************/
+/* Testemonial section*/
+/*********************************/
+.section-testemonial {
+  padding: 9.6rem 0;
+  background-color: #211a16;
+}
+
+.testemonial-content {
+  padding-left: 9.6rem;
+}
+.customer-testemonial img {
+  height: 9.6rem;
+  width: 9.6rem;
+  border-radius: 100%;
+}
+.testemonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+  color: white;
+}
+
+.testemonial-name {
+  font-size: 1.6rem;
+  color: white;
+}
+.gallery {
+  margin-right: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+.gallery-item {
+  overflow: hidden;
+}
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
