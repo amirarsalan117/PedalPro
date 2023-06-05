@@ -59,7 +59,7 @@ body {
   font-weight: 700;
 }
 
-.align-items-end{
+.align-items-end {
   align-items: end;
 }
 .secndery-heading {
@@ -105,6 +105,12 @@ body {
 }
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.center{
+  text-align: center;
 }
 /*********************************/
 /* header section*/
@@ -241,7 +247,7 @@ body {
   padding: 9.6rem;
 }
 
-.how-content{
+.how-content {
   margin-top: 4.4rem;
 }
 .how-number {
@@ -250,12 +256,18 @@ body {
   color: #1a5059;
 }
 
-.how-describtion{
-  font-size: 1.8rem;  
+.how-describtion {
+  font-size: 1.8rem;
   font-size: 600;
   line-height: 1.8;
 }
-.how-image img{
+.how-image img {
   width: 100%;
   border-radius: 1.1rem;
+}
+/*********************************/
+/* category  section*/
+/*********************************/
+.section-category {
+  padding: 9.6rem;
 }
