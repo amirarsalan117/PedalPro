@@ -59,7 +59,11 @@ body {
   font-size: 5.2rem;
   font-weight: 700;
 }
-
+.flex--footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
 .align-items-end {
   align-items: end;
 }
@@ -550,4 +554,62 @@ textarea {
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
   resize: none;
   border-radius: 1.1rem;
+}
+/*********************************/
+/* footer*/
+/*********************************/
+
+.footer {
+  padding: 9.6rem 0;
+  background-color: #103035;
+  color: white;
+  background-size: cover;
+}
+.footer ul {
+  list-style: none;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+.footer-logo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.social-list {
+  display: flex;
+  gap: 1.2rem;
+}
+.social-icon {
+  font-size: 3.2rem;
+  color: #000;
+}
+.copy {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.phone-number {
+  font-size: 1.6rem;
+}
+.email:link,
+.email:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.address {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.flex--footer li {
+  font-size: 1.6rem;
 }
