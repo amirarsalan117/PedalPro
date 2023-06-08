@@ -48,6 +48,7 @@ body {
 /*********************************/
 /* General */
 /*********************************/
+
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -92,6 +93,13 @@ body {
   border: 3px solid #103035;
 }
 
+.btn--cta {
+  color: black;
+  background-color: #1a5059;
+}
+.btn--cta:hover {
+  background-color: #17474f;
+}
 .subheading {
   font-size: 1.8rem;
   color: #1a5059;
@@ -448,13 +456,91 @@ body {
 .card--populare .btn {
   background-color: #e67e22;
 }
-.card--populare .btn:hover {
-  background-color: #622e01;
-}
 .card .btn:hover {
   background-color: #0c2023;
 }
-.pricing-heading{
+.card--populare .btn:hover {
+  background-color: #38220e;
+}
+.pricing-heading {
   color: #211a16;
   padding-bottom: 6.4rem;
+}
+
+/*********************************/
+/* cta section*/
+/*********************************/
+.cta *:focus {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+}
+.section-cta {
+  padding: 9.6rem 0;
+}
+.cta {
+  display: flex;
+  background-image: url("/assets/img/call-to-action.jpg");
+  background-size: cover;
+  padding: 3.2rem;
+  background-position: right;
+  border-radius: 1.1rem;
+}
+label {
+  display: block;
+}
+.cta-header {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.cta-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "first last"
+    "country country"
+    "message message"
+    "submit .";
+  gap: 3.2rem;
+  margin-top: 3.2rem;
+}
+.first-name {
+  grid-area: first;
+}
+.last-name {
+  grid-area: last;
+}
+.country {
+  grid-area: country;
+}
+.textarea {
+  grid-area: message;
+}
+.submit {
+  grid-area: submit;
+}
+label {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+input {
+  border: none;
+  border-radius: 1.1rem;
+  padding: 1.2rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+}
+select {
+  width: 100%;
+  padding: 1.8rem;
+  border: none;
+  border-radius: 1.1rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+}
+textarea {
+  border: none;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+  resize: none;
+  border-radius: 1.1rem;
 }
