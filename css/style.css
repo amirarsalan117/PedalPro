@@ -395,3 +395,66 @@ body {
 .heading-testemonial {
   color: white;
 }
+/*********************************/
+/* pricing section*/
+/*********************************/
+.section-pricing {
+  padding: 9.6rem 0;
+  color: white;
+}
+.pricing-cards {
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  background-color: #29201b;
+  padding: 3rem;
+  transition: all 0.3s;
+}
+.card-title {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 0.6;
+  text-align: center;
+}
+.card-describtion {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+.price {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+  background-color: #777;
+  width: 120%;
+  text-align: center;
+  padding: 1.8rem;
+}
+.card-text {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.btn--sign {
+  background-color: #1a5059;
+}
+.card--populare {
+  transform: scale(1.2);
+}
+
+.card--populare .btn {
+  background-color: #e67e22;
+}
+.card--populare .btn:hover {
+  background-color: #622e01;
+}
+.card .btn:hover {
+  background-color: #0c2023;
+}
+.pricing-heading{
+  color: #211a16;
+  padding-bottom: 6.4rem;
+}
