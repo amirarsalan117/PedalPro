@@ -421,6 +421,9 @@ body {
   background-color: #29201b;
   padding: 3rem;
   transition: all 0.3s;
+  border-radius: 1.1rem;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
 }
 .card-title {
   font-size: 2.6rem;
@@ -441,6 +444,8 @@ body {
   width: 120%;
   text-align: center;
   padding: 1.8rem;
+  border-left: 1px solid white;
+  border-right: 3px solid white;
 }
 .card-text {
   font-size: 1.8rem;
