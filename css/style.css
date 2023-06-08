@@ -534,11 +534,13 @@ input {
   border: none;
   border-radius: 1.1rem;
   padding: 1.2rem;
+  font-size: 1.2rem;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
 }
 select {
   width: 100%;
   padding: 1.8rem;
+  font-size: 1.8rem;
   border: none;
   border-radius: 1.1rem;
   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
