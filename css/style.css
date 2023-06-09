@@ -79,6 +79,7 @@
 }
 .hero-content {
   width: 60%;
+  padding-top: 6.4rem;
 }
 
 .customers {
@@ -203,7 +204,7 @@
 }
 .all-models {
   text-align: center;
-  margin-top: 3.2rem;
+  padding-top: 3.6rem !important;
 }
 
 .all-models a:link,
@@ -344,15 +345,15 @@
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
 }
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 9.6rem 9.6rem;
 }
 .cta {
   display: flex;
   background-image: url("/assets/img/call-to-action.jpg");
   background-size: cover;
-  padding: 3.2rem;
   background-position: right;
   border-radius: 1.1rem;
+  padding: 3.2rem !important;
 }
 label {
   display: block;
