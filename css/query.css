@@ -1,0 +1,45 @@
+/**************************/
+/* BELOW  (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  html {
+    font-size: 9px;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/**************************/
+/* BELOW 1085  (Smaller desktops) */
+/**************************/
+
+@media (max-width: 68em) {
+  html {
+    font-size: 8px;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+}
+
+@media (max-width: 61em) {
+  .hero {
+    display: block;
+  }
+  
+  .hero-describtion {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
+  .hero-content {
+    width: 80%;
+  }
+  .customers-content {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 500;
+  }
+ 
+}
